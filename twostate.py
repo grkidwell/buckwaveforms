@@ -22,11 +22,11 @@ class Two_state:
         return self.step(self.t1-t)
     
     def t2_unit_pulse(self,t):
-        return (1-self.t1_unit_pulse(t)
+        return (1-self.t1_unit_pulse(t))
     
     def repeating(self,t):
         period=self.Ts
-        return t-(t//period)*period
+        return (t-(t//period)*period)
 
 # pulse train functions have 'time' max input and output an array of 1's, 0's and 0.5's
     def t1_pulse_train(self,tmax):
