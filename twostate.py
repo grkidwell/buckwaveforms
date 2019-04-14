@@ -1,4 +1,4 @@
-# duh
+# coding: utf-8
 
 class Two_state:
     
